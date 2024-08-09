@@ -1,7 +1,6 @@
 using System.Data;
 using System.Data.SqlClient;
 using InterbraApi.Domain.Repository;
-using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
