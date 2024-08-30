@@ -30,3 +30,38 @@ C:\Programas\DDEyC\InterbraApi\InterbraApi\obj\Debug\net6.0\refint\InterbraApi.d
 C:\Programas\DDEyC\InterbraApi\InterbraApi\obj\Debug\net6.0\InterbraApi.pdb
 C:\Programas\DDEyC\InterbraApi\InterbraApi\obj\Debug\net6.0\InterbraApi.genruntimeconfig.cache
 C:\Programas\DDEyC\InterbraApi\InterbraApi\obj\Debug\net6.0\ref\InterbraApi.dll
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\appsettings.json
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\appsettings.Development.json
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\appsettings.local.json
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\InterbraApi.exe
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\InterbraApi.deps.json
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\InterbraApi.runtimeconfig.json
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\InterbraApi.dll
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\InterbraApi.pdb
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\Dapper.dll
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\obj\Debug\net6.0\InterbraApi.csproj.AssemblyReference.cache
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\obj\Debug\net6.0\InterbraApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\obj\Debug\net6.0\InterbraApi.AssemblyInfoInputs.cache
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\obj\Debug\net6.0\InterbraApi.AssemblyInfo.cs
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\obj\Debug\net6.0\InterbraApi.csproj.CoreCompileInputs.cache
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\obj\Debug\net6.0\InterbraApi.MvcApplicationPartsAssemblyInfo.cs
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\obj\Debug\net6.0\InterbraApi.MvcApplicationPartsAssemblyInfo.cache
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\obj\Debug\net6.0\staticwebassets.build.json
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\obj\Debug\net6.0\staticwebassets.development.json
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\obj\Debug\net6.0\scopedcss\bundle\InterbraApi.styles.css
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\obj\Debug\net6.0\InterbraApi.csproj.CopyComplete
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\obj\Debug\net6.0\InterbraApi.dll
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\obj\Debug\net6.0\refint\InterbraApi.dll
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\obj\Debug\net6.0\InterbraApi.pdb
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\obj\Debug\net6.0\InterbraApi.genruntimeconfig.cache
+C:\PROGRAMAS 1\InterbraApi\InterbraApi\obj\Debug\net6.0\ref\InterbraApi.dll
