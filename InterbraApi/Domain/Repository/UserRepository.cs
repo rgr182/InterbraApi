@@ -31,6 +31,31 @@ namespace InterbraApi.Domain.Repository
                 return users;
             }
         }
+        public User SaveUser(User user)
+        {
+            using (var dbConnection = CreateConnection())
+            {
+                // Definimos la consulta SQL para insertar un nuevo usuario
+                string sql = "INSERT INTO [user] ([Name], LastName, Gender, Dob, UserName, [Password], [Address]) " +
+                             "VALUES (@Name, @LastName, @Gender, @Dob, @UserName, @Password, @Address);";
+
+                // Ejecutamos la consulta
+                dbConnection.Execute(sql, new
+                {
+                    Name = user.Name,
+                    LastName = user.LastName,
+                    Gender = user.Gender,
+                    Dob = user.Dob,
+                    UserName = user.UserName,
+                    Password = user.Password, // Considera usar un hash para la contraseña
+                    Address = user.Address
+                });
+
+                // Retornamos el usuario guardado (puedes también retornar el ID del usuario si es necesario)
+                return user;
+            }
+        }
+
 
         public IEnumerable<ShoppingCartItemDTO> GetUserShoppingCart(int userId)
         {

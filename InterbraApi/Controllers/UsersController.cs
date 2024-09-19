@@ -29,5 +29,11 @@ namespace InterbraApi.Controllers
         {
             return _userRepository.GetUserShoppingCart(UserId);
         }
+        
+        [HttpPost(Name = "SaveUser")]
+        public User SaveUser(User user)
+        {
+            return _userRepository.SaveUser(user);
+        }
     }
 }
