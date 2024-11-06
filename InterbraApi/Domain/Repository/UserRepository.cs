@@ -1,14 +1,19 @@
 ﻿using Dapper;
 using InterbraApi.Domain.Entities;
 using InterbraApi.Domain.Model;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using Microsoft.Extensions.DependencyInjection;
+
 
 namespace InterbraApi.Domain.Repository
 {
-    public class UserRepository
+    public interface IUserRepository
+    {       
+        List<User> GetUsers();        
+        User SaveUser(User user);     
+        IEnumerable<ShoppingCartItemDTO> GetUserShoppingCart(int userId);
+    }
+
+    public class UserRepository : IUserRepository
     {
         private readonly IServiceProvider _serviceProvider;
 

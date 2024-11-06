@@ -10,9 +10,9 @@ namespace InterbraApi.Controllers
     [Route("[controller]/[action]")]
     public class UsersController : ControllerBase
     {
-        private readonly UserRepository _userRepository;
+        private readonly IUserRepository _userRepository;
 
-        public UsersController(UserRepository userRepository)
+        public UsersController(IUserRepository userRepository)
         {
             _userRepository = userRepository;
         }
@@ -24,12 +24,7 @@ namespace InterbraApi.Controllers
         }
 
 
-        [HttpGet(Name = "GetShoppingCart")]
-        public IEnumerable<ShoppingCartItemDTO> GetShoppingCart(int UserId)
-        {
-            return _userRepository.GetUserShoppingCart(UserId);
-        }
-        
+      
         [HttpPost(Name = "SaveUser")]
         public User SaveUser(User user)
         {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InterbraApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2020ef9fca742b22a89880314a0bbfbdbc3710a")]
 [assembly: System.Reflection.AssemblyProductAttribute("InterbraApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InterbraApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

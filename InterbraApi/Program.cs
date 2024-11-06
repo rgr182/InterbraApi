@@ -10,7 +10,6 @@ builder.Services.AddCors(o =>
         b.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -19,7 +18,7 @@ builder.Services.AddTransient<IDbConnection>(sp =>
     new SqlConnection(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Registro de UserRepository
-builder.Services.AddTransient<UserRepository>();
+builder.Services.AddScoped<IUserRepository,UserRepository>();
 
 var app = builder.Build();
 
