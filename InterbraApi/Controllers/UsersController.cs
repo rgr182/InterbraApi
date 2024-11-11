@@ -21,7 +21,6 @@ namespace InterbraApi.Controllers
             return _userRepository.GetUsers();
         }
 
-
       
         [HttpPost(Name = "SaveUser")]
         public User SaveUser(User user)

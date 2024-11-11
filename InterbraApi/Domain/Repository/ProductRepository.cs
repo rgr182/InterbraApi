@@ -1,8 +1,6 @@
 ﻿using Dapper;
 using InterbraApi.Domain.Entities;
-using InterbraApi.Domain.Model;
 using System.Data;
-using System.Data.Common;
 
 namespace InterbraApi.Domain.Repository
 {
@@ -10,6 +8,7 @@ namespace InterbraApi.Domain.Repository
     public interface IProductRepository
     {
         public Product SaveProduct(Product Product);
+        public IEnumerable<Product> GetTopProducts(int topCount);
     }
 
     public class ProductRepository : IProductRepository
@@ -27,23 +26,31 @@ namespace InterbraApi.Domain.Repository
         }
         public Product SaveProduct(Product Product)
         {
-
-
             using (var dbConnection = CreateConnection())
             {
-                string sql = "INSERT INTO [Product] (Name, Description, Size, Quantity]) " +
-                                 "VALUES (@Name, @Description, @Size, @Quantity);";
+                string sql = "INSERT INTO [Product] (Name, Description, Size, ImageUrl, Quantity]) " +
+                                 "VALUES (@Name, @Description, @ImageUrl, @Size, @Quantity);";
 
                 dbConnection.Execute(sql, new
                 {
                     Name = Product.Name,
                     Description = Product.Description,
                     Size = Product.Size,
+                    ImageUrl = Product.ImageUrl,
                     Quantity = Product.Quantity,
                 });
                 return Product;
+            }
+        }
 
+        public IEnumerable<Product> GetTopProducts(int topCount)
+        {
+            using (var dbConnection = CreateConnection())
+            {
+                string sql = "SELECT TOP (@TopCount) * FROM [Product];";
 
+                var products = dbConnection.Query<Product>(sql, new { TopCount = topCount });
+                return products;
             }
         }
     }

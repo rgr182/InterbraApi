@@ -1,4 +1,5 @@
-﻿using InterbraApi.Domain.Repository;
+﻿using InterbraApi.Domain.Entities;
+using InterbraApi.Domain.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace InterbraApi.Controllers
@@ -15,6 +16,12 @@ namespace InterbraApi.Controllers
         public IActionResult SaveProduct()
         {
             return Ok();
+        }
+
+        [HttpGet("GetProducts")]
+        public IActionResult SaveProduct(int amount)
+        {
+            return Ok(_productRepository.GetTopProducts(amount));
         }
     }
 }
