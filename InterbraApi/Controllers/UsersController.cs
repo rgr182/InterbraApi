@@ -1,8 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using InterbraApi.Domain.Entities;
 using InterbraApi.Domain.Repository;
-using System.Collections.Generic;
-using InterbraApi.Domain.Model;
 
 namespace InterbraApi.Controllers
 {
